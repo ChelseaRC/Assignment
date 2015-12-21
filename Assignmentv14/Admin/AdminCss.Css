@@ -1,0 +1,205 @@
+﻿body
+{
+	color: black;
+ background-image: url("Background1.jpg");
+	 background-size: 100% 100%;
+	  background-attachment:fixed;	
+}
+
+h1
+{
+	
+	text-align:center;
+	
+}
+#Content
+{
+
+	background: white;
+	margin-left:10%;
+	margin-right:10%;
+	line-height:18px;
+	border-radius: 0px 0px 30px 30px;
+	margin-top:0px;
+	padding-bottom:25px;
+	margin-top:0px;
+	
+	
+	
+}
+
+#header
+{
+	
+	background-color:white;
+	margin-right: 10%;
+	margin-left:10%;
+	margin-bottom:0px;
+	height:75px;
+	border-radius: 30px 30px 0px 0px;
+}
+
+#header h1
+{
+	padding: px;
+	margin-bottom:0px
+}
+
+#Nav
+{
+	height: 50px; 
+	margin-top:0px;
+	
+			
+}
+	
+#Nav_Content
+{	
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	width: 79.1%;
+	position: absolute
+	
+}
+#Nav_Content li 	
+{
+	height: 50px;
+	width: 16.655%;  
+	float:left; 
+	text-align: center;  
+	list-style: none;  
+	font: bold 20px Arial;
+	padding: 0;
+	margin: 0;
+	background: linear-gradient(Pink, white, pink);
+	 
+	
+}
+ #Nav_Content a
+ {		
+ 	height:22px;					
+	padding: 14px 0;  
+	border-left: 1px solid gray; 
+	border-right: 1px solid gray;
+	text-decoration: none;  
+	color: gray; 
+	display: block;
+}
+
+
+#Nav_Content li:hover a:hover 
+{
+	background:#87c7ee;
+	color:black; 
+	font-size: 20px;
+}
+
+#Nav_Content li ul {
+	display: none;  
+	height: auto;									
+	margin: 0; 
+	padding: 0; 
+}				
+
+#Nav_Content li:hover ul 
+	{
+	display: block; 
+	background: black;
+	 }
+	 
+#Nav_Content li ul li 
+	{
+		background-color: black;
+		width: 100%;
+		
+		
+		
+	 } 
+#Nav_Content li ul li a 	
+	{
+	background-color: pink;
+	}
+				
+#Nav_Content li ul li a:hover{
+
+text-decoration: None; 
+}
+
+table{
+	border-collapse:collapse;
+	
+}
+
+table tr 
+{
+	text-align:center;
+	
+}
+
+#info
+{
+	margin-top:50px;
+	
+}
+
+#form
+{
+	text-align:center;
+
+}
+
+#Logout
+{
+	margin-left:90%;
+}
+
+#Info
+{
+	
+	text-align:center;
+}
+
+
+
+#Products{
+	text-align:center;
+	margin-top:5%
+}
+
+#box{
+	 resize: none;
+	 border: none;
+	 outline: none;
+	
+	 
+}
+
+#Logout
+{
+	background-color:white;
+	margin-bottom:0px;
+	margin-left: 80%;
+	margin-right:10%;
+	border-radius:20px 20px 20px 20px;
+	text-align:center;
+	font-size:25px;
+	padding:15px;
+	
+}
+#Logout a{
+	text-decoration:none;
+	text-decoration:none;
+	color:black
+
+}
+#Logout a:visited{
+
+	text-decoration:none;
+	color:black
+}
+
+#Login{
+	text-align:center;
+}
+

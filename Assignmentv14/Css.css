@@ -1,0 +1,407 @@
+﻿body
+{
+	
+color: black;
+ background-image: url("Background1.jpg");
+	 background-size: 100% 100%;
+ background-attachment:fixed;
+ font-size:20px;
+ font-family:Calibri;
+ 	
+}
+
+
+h1
+{
+	
+	text-align:center;
+	
+}
+
+
+#Nav
+{
+	height: 50px; 
+	margin-top:0px;
+	
+			
+}
+	
+#Nav_Content
+{	
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	width: 79.1%;
+	position: absolute
+	
+}
+#Nav_Content li 	
+{
+	height: 50px;
+	width: 20%;  
+	float:left; 
+	text-align: center;  
+	list-style: none;  
+	font: bold 20px Arial;
+	padding: 0;
+	margin: 0;
+	background: linear-gradient(pink, white, pink);
+	 
+	
+}
+ #Nav_Content a
+ {		
+ 	height:22px;					
+	padding: 14px 0;  
+	border-left: 1px solid gray; 
+	border-right: 1px solid gray;
+	text-decoration: none;  
+	color: gray; 
+	display: block;
+}
+
+
+#Nav_Content li:hover a:hover 
+{
+	background:#87c7ee;
+	color:black; 
+	font-size: 20px;
+}
+
+#Nav_Content li ul {
+	display: none;  
+	height: auto;									
+	margin: 0; 
+	  z-index:1000;
+	padding: 0; 
+}				
+
+#Nav_Content li:hover ul 
+	{
+	display: block; 
+	background: black;
+	 }
+	 
+#Nav_Content li ul li 
+	{
+		background-color: black;
+		width: 100%;
+		 
+		
+		
+		
+	 } 
+#Nav_Content li ul li a 	
+	{
+	background-color: pink;
+	  
+	}
+				
+#Nav_Content li ul li a:hover{
+
+text-decoration: None; 
+  
+}
+
+
+
+#Content
+{
+
+	background: white;
+	margin-left:10%;
+	margin-right:10%;
+	line-height:20px;
+	padding-bottom:40px;
+	margin-top:0px;
+	 overflow: auto
+	
+	
+	
+	
+}
+
+#Header img
+{
+	
+	border-radius: 30px 0px 0px 0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#Header
+{
+
+	height:300px;
+	margin-right:10%;
+	margin-left:10%;
+	margin-top:0px;
+	margin-bottom:0px;
+	
+
+}
+
+
+#Info
+{	float: left;
+    margin-left:5%;
+    width:40%;
+    margin-bottom:5%;
+    margin-top: 30px;
+}
+#Info h2
+{
+	text-align:center;
+}
+#Servs
+{
+	float: right;
+    margin-left:5%;
+    margin-right: 5%;
+        width:40%;
+    margin-bottom:5%;
+     margin-top: 30px;
+
+}
+#Servs h2{
+text-align:center;
+	
+}
+#DatabaseContent
+{
+	margin-left: 30%;
+	margin-right: 30%;
+	
+}
+
+#Footer
+{
+	border-radius: 0px 0px 30px 30px;
+	background-color:#dfdede;
+	margin-left:10%;
+	margin-right:10%;
+	height:35px;
+	color:#b2b0b0;
+
+}
+
+#Footer footer{
+	float: right;
+	margin-right:40px;
+	margin-top:5px;
+}
+
+#Login{
+	background-color:white;
+	margin-bottom:0px;
+	margin-left: 69%;
+	margin-right:10%;
+	border-radius:20px 20px 0px 0px;
+	text-align:center;
+		font-size:25px;
+}
+
+#Login a
+{
+font-size:20px;
+text-decoration:none;
+	
+	
+
+}
+
+#contact{
+	
+	margin-left:15%;
+	float: left;
+	
+      
+
+}
+
+#DatabaseStuff{
+	float: right;
+	margin-right:10%;
+	
+  
+}
+
+#Info{
+	text-align:center;
+}
+
+#box{
+	 resize: none;
+	 border: none;
+	 outline: none;
+}
+
+#Products{
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#Products td{
+	border-bottom:thin black dotted;
+	}
+	
+#Products th{
+	border-top: medium black solid;
+	border-bottom: medium black solid;
+}
+#Pics{
+	text-align:center;
+}
+
+#Pics img{
+	border-radius: 30px 30px 30px 30px;
+	
+}
+#news
+{
+	
+	margin-bottom:100px;
+}
+#PleaseLogin{
+	text-align:center
+}
+#PleaseLogin p{
+	font-size:25px;
+}
+#PleaseLogin a
+{
+	font-size:20px;
+text-decoration:none;
+color:black;
+
+
+}
+#PleaseLogin a:hover{
+	color:gray;
+}
+
+#LoginPage{
+	text-align:center;
+
+}
+#LoginPage a{
+		font-size:15px;
+text-decoration:none;
+color:black;
+
+}
+#LoginPage a:hover{
+	color:gray;
+}
+#GoBack a{
+font-size:15px;
+text-decoration:none;
+color:black;
+
+}
+#GoBack a:hover{
+	color:gray;
+}
+
+#ContentReg{
+	background:white;
+	margin-left:35%;
+	margin-right:35%;
+	border-radius: 30px 30px 30px 30px;
+	padding:20px
+}
+#RegForm{
+	text-align:center;
+}
+
+#Title{
+	font-weight:bold;
+}
+
+#PostDate{
+	margin-left:10px;
+}
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color:black;
+  margin: 50px 0;
+}
+
+.box {
+  width: 20%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+    border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid pink;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: pink;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 40%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  max-height: 80%;
+overflow-y: scroll;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: orange;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  
+}
+
